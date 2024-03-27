@@ -1,5 +1,6 @@
 import express from "express";
-import { PORT } from "./config.js";
+import { PORT, DB_URL } from "./config.js";
+import { Mongoose } from "mongoose";
 
 const app = express();
 
